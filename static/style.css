@@ -1,0 +1,81 @@
+body {
+  background-color: powderblue;
+}
+
+.title {
+  text-align: center;
+}
+
+#login-form {
+  text-align: center;
+}
+
+#chat-window {
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 80vh;
+  overflow-y: scroll;
+  position: relative;
+}
+
+#chat-input {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  overflow-y: auto;
+}
+
+.message-line-self {
+  background-color: white;
+  overflow-wrap: break-word;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2px;
+  text-align: right;
+  font-family: monospace;
+}
+
+.message-line-other {
+  overflow-wrap: break-word;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2px;
+  text-align: left;
+  font-family: monospace;
+}
+
+.message-line-system {
+  background-color: lightgrey;
+  overflow-wrap: break-word;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2px;
+  text-align: left;
+  font-family: monospace;
+}
+
+.message-line-info {
+  overflow-wrap: break-word;
+  padding: 5px;
+  margin: 2px;
+  text-align: center;
+  font-family: monospace;
+}
+
+.message-timestamp {
+  font-weight: bold;
+  font-size: 0.650em;
+}
+
+.debug-line {
+  background-color: lightpink;
+  font-family: monospace;
+
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
